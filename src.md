@@ -114,6 +114,9 @@ Defined at [line 105](../src/universe/autoware_universe/simulator/autoware_simpl
 9. **`tier4_api_utils::Service<InitializePose>`** (lines 197–201) — `/api/simulator/set/pose`
    on its own `MutuallyExclusive` callback group.
 
+  
+
+
 10. **Vehicle-model construction** — `initialize_vehicle_model(vehicle_model_type_str)` (§1.3).
 
 11. **Initial pose source** (lines 207–215): if `initialize_source == "ORIGIN"`, set state to
